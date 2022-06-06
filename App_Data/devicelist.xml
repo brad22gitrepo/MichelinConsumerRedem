@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mobile>
+    <device useragent="MIDP" />
+    <device useragent="CLDC" />
+    <device useragent="IPHONE" />
+    <device useragent="AVANT" />
+    <device useragent="NOKIA" />
+    <device useragent="PDA" />
+    <device useragent="MOTO" />
+    <device useragent="WINDOWS CE" />
+    <device useragent="HAND" />
+    <device useragent="MOBI" />
+    <device useragent="HTC" />
+    <device useragent="SONY" />
+    <device useragent="PANASONIC" />
+    <device useragent="BLACKBERRY" />
+    <device useragent="240X320" />
+    <device useragent="VODA" />
+    <device useragent="OPERA MINI" />
+    <device useragent="PALM" />
+    <device useragent="PORTABLE" />
+    <device useragent="SYMBIANOS" />
+    <device useragent="ANDROID" />
+    <device useragent="IPOD" />
+    <device useragent="TABLET" />
+    <device useragent="IPAD" />
+    <device useragent="ZUNEWP7" />
+    <device useragent="PLAYSTATION" />
+    <device useragent="NOOK" />
+    <device useragent="NINTENDO" />
+    <device useragent="NITRO" />
+    <device useragent="KINDLE" />
+</mobile>
