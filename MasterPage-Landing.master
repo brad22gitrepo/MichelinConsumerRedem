@@ -1,0 +1,58 @@
+﻿<%@ master language="VB" inherits="MasterPage_Landing, App_Web_masterpage-landing.master.cdcab7d2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/App_Themes/Theme1/Landing.css" rel="Stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/StyleSheet.css" rel="Stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/Text.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body class="landingBody">
+    <form id="form1" runat="server">
+    <div>
+        <table id="LandingTable" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td style="width:100%;vertical-align:top;text-align:center;padding-left:50px;padding-right:50px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td style="padding-top:90px;text-align:left;">
+                                <table border="0" id="LandingMasterTable" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="padding-bottom:30px;">
+                                            <asp:Label ID="Label1" CssClass="landingHeader" runat="server" Text="Welcome to TireRewardCenter.com" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:top;height:100%;">
+                                            <table class="landingContentHolder" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td>
+                                                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" /></td>
+                                                </tr>
+                                            </table></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:top;">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td style="width:80%;">
+                                                        <asp:Label ID="lblCatCopyFooter" CssClass="copyLandingText" runat="server" Text="© 2010 Michelin All Rights Reserved" /></td>
+                                                    <td style="width:20%;">
+                                                        <asp:HyperLink ID="lblCopyFooter" CssClass="copyLandingText" NavigateUrl="http://www.groupo.com" Target="_blank" runat="server" Text="© 2012 Group O Inc." /></td>
+                                                </tr>
+                                            </table></td>
+                                    </tr>
+                                </table> 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </td> 
+            </tr> 
+        </table> 
+       
+    </div>
+    </form>
+</body>
+</html>

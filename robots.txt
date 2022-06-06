@@ -1,0 +1,51 @@
+﻿User-agent: *
+Disallow: /*.axd$
+
+User-agent: *
+Disallow: /Admin/
+
+User-agent: *
+Disallow: /Controls/
+
+User-agent: *
+Disallow: /App_Data/
+
+User-agent: *
+Disallow: /App_Themes/
+
+User-agent: *
+Disallow: /bin/
+
+User-agent: *
+Disallow: /Michelin/User/
+
+User-agent: *
+Disallow: /Michelin/Email/
+
+User-agent: *
+Disallow: /Michelin/QRCode/
+
+User-agent: *
+Disallow: /BFGoodrich/User/
+
+User-agent: *
+Disallow: /BFGoodric/Email/
+
+User-agent: *
+Disallow: /BFGoodric/QRCode/
+
+User-agent: *
+Disallow: /BFGoodric/User/
+
+User-agent: *
+Disallow: /Errors/
+
+User-agent: *
+Disallow: /mobile/BFGoodric/user/
+
+User-agent: *
+Disallow: /mobile/Michelin/user/
+
+User-agent: *
+Disallow: /mobile/js/
+
