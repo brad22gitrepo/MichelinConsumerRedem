@@ -1,0 +1,79 @@
+﻿<%@ master language="VB" inherits="mobile_mobile, App_Web_mobile.master.da240a29" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link id="cssLink" href="~/App_Themes/mobile/mobile.css" rel="stylesheet" type="text/css" />
+    <link id="michCssLink" href="~/App_Themes/mobile/mobile.css" rel="stylesheet" type="text/css" />
+    <link id="bfgCssLink" href="~/App_Themes/mobile/mobile.css" rel="stylesheet" type="text/css" />
+    <link id="uniCssLink" href="~/App_Themes/mobile/mobile.css" rel="stylesheet" type="text/css" />
+    <script src="/mobile/js/mobile.js" type="text/ecmascript"></script>
+    <meta name="viewport" content="width=device-width">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="keywords" content="find michelin tire coupon,find michelin tire deal,find michelin tire discounts,find michelin tire promo,find michelin tire promotion,find michelin tire rebate,find michelin tire savings,find michelin tyre coupon,find michelin tyre deal,find michelin tyre discounts,find michelin tyre promo,find michelin tyre promotion,find michelin tyre rebate,find michelin tyre savings,find tire coupon,find tire deal,find tire discounts,find tire promo,find tire promotion,find tire rebate,find tire savings,find tyre coupon,find tyre deal,find tyre discounts,find tyre promo,find tyre promotion,find tyre rebate,find tyre savings,get michelin tire coupon,get michelin tire deal,get michelin tire discounts,get michelin tire promo,get michelin tire promotion,get michelin tire rebate,get michelin tire savings,get michelin tyre coupon,get michelin tyre deal,get michelin tyre discounts,get michelin tyre promo,get michelin tyre promotion,get michelin tyre rebate,get michelin tyre savings,get tire coupon,get tire deal,get tire discounts,get tire promo,get tire promotion,get tire rebate,get tire savings,get tyre coupon,get tyre deal,get tyre discounts,get tyre promo,get tyre promotion,get tyre rebate,get tyre savings,michelin tire coupon,michelin tire deal,michelin tire discounts,michelin tire promo,michelin tire promotion,michelin tire rebate,michelin tire savings,michelin tires coupon,michelin tires deal,michelin tires promo,michelin tires promotion,michelin tires rebate,michelin tires savings,michelin tyre coupon,michelin tyre deal,michelin tyre discounts,michelin tyre discounts,michelin tyre promo,michelin tyre promotion,michelin tyre rebate,michelin tyre savings,michelin tyres coupon,michelin tyres deal,michelin tyres discounts,michelin tyres promo,michelin tyres promotion,michelin tyres rebate,michelin tyres savings,tire coupon,tire deal,tire discounts,tire promo,tire promotion,tire rebate,tire savings,tires coupon,tires deal,tires promo,tires promotion,tires rebate,tires savings,tyre coupon,tyre deal,tyre discounts,tyre discounts,tyre promo,tyre promotion,tyre rebate,tyre savings,tyres coupon,tyres deal,tyres discounts,tyres promo,tyres promotion,tyres rebate,tyres savings" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        a[href^=tel]
+        {
+            color: Yellow;
+            font-size: 7pt;
+            text-decoration: underline;
+        }
+        a[href^=maps]
+        {
+            color: Yellow;
+            font-size: 7pt;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body bgcolor="#0169b2">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="smAjax" runat="server" />
+    <center>
+        <div id="title">
+            <b>Welcome to the Tire Reward Center</b>
+        </div>
+    </center>
+    <div style="color: White; line-height: 20px; text-align: center; width: 100%;">
+        Thank you for your recent purchase!
+        <br />
+        Get started by selecting the brand of tires purchased.
+        <br />
+        <span style="font-size: 7pt;">DO NOT USE THIS SITE WHILE DRIVING</span>
+    </div>
+    <div class="lineSpacer">
+        &nbsp;
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <div class="lineSpacer">
+        &nbsp;
+    </div>
+    <div style="color: White; padding-top: 6px; text-align: center; width: 100%;">
+        <a href="http://www.michelinman.com/privacy.page">Privacy Policy</a> | <a href="http://www.michelinman.com/terms-of-use.page">
+            Terms</a> | <a href="http://www.tirerewardcenter.com?mobile=0">Full Site</a>
+    </div>
+    <div id="dvTest" style="color: White; font-size: 6pt; padding-top: 6px; text-align: center; width: 100%;">
+        ©
+        <asp:Label ID="lblCopyYear" runat="server" CssClass="baseControl" Font-Size="6pt"></asp:Label>
+        Michelin North America Inc. All rights reserved.
+        <br />
+        1 Parkway S. Greenville, SC 29615 USA <a href="tel:1-866-212-9619">1-866-212-9619</a>
+        <br />
+        <br />
+        <br />
+    </div>
+    <script type="text/javascript">
+        function pageLoad(args)
+        {
+            SetStyleSheet();
+        }
+    </script>
+    </form>
+</body>
+</html>

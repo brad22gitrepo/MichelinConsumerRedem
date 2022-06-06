@@ -1,0 +1,120 @@
+﻿<%@ master language="VB" inherits="Michelin_MasterPage_Empty, App_Web_masterpage-empty.master.bb384c4a" %>
+<%@ Register Src="~/Controls/ProgressLoader.ascx" TagPrefix="GroupO" TagName="UpdateProgressLoader" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+       <title></title>
+
+    <meta name="Description" content="The Michelin Fulfillment center provides Michelin consumers the ability to submit redemptions and check the status of their rewards online for Michelin promotional offers." />
+    <meta name="Keywords" content="tire coupon, tires coupon, tyre coupon, tyres coupon,find tire coupon, find tyre coupon, get tire coupon, get tyre coupon, tire promo, tires promo, tyre promo, tyres promo, find tire promo, find tyre promo, get tire promo, get tyre promo" />
+    <meta name="Keywords" content="tire deal, tires deal, tyre deal, tyres deal, find tire deal, find tyre deal, get tire deal, get tyre deal, tire rebate, tires rebate, tyre rebate, tyres rebate, find tire rebate, find tyre rebate,get tire rebate, get tyre rebate" />
+    <meta name="Keywords" content="tire discounts, tyre discounts, tyre discounts, tyres discounts, find tire discounts, find tyre discounts, get tire discounts, get tyre discounts, tire savings, tires savings, tyre savings, tyres savings, find tire savings, find tyre savings, get tire savings, get tyre savings" />
+    <link rel="SHORTCUT ICON" href="../favicon.ico" />
+    <link href="~/App_Themes/Theme1/menu.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/Mich.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/ModalPopup.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/Theme1/Text.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+            <Scripts>
+                <asp:ScriptReference Path="~/IE10Fix.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <table id="DarkBlueTable" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td style="width:100%;vertical-align:top;text-align:center;padding-left:50px;padding-right:50px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td>
+                                <table id="MasterTable" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="text-align:left;vertical-align:top;">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td class="menu2" style="padding-top:32px;">
+                                                        <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                                                            <ContentTemplate>
+                                                                <table border="0" cellspacing="0" cellpadding="0" class="mainMenu">
+                                                                    <tr>
+                                                                        <td colspan="8" style="background-color:#fed742;height:4px;">
+                                                                            <asp:Image ID="Image1" ImageUrl="~/Images/spacer.gif" Height="4px" runat="server" /></td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div style="z-index:+99;position:relative;top:-32px;left:223px;width:40%;height:50px;">
+                                                                    <table border="0" cellspacing="0" cellpadding="0" width="750">
+                                                                        <tr>
+                                                                            <td style="padding-top:33px;">
+                                                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                    <tr>
+                                                                                        <td style="padding-right:40px;padding-bottom:5px;">
+                                                                                            <asp:Label ID="Label1" CssClass="masterHeaderText" runat="server" Text="Welcome to the Michelin Consumer Reward Center" /></td>
+                                                                                    </tr>
+                                                                                </table></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td style="background-color:#fff704;height:2px;">
+                                                                                <asp:Image ID="Image2" ImageUrl="~/Images/spacer.gif" Height="2px" runat="server" /></td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                                <div style="z-index:+100;position:relative;top:-70px;left:20px;width:174px;height:56px;">
+                                                                    <asp:Image ID="btnLogo" runat="server" ImageUrl="~/Images/Logo.png" Height="56px" Width="174px" AlternateText="Michelin Logo" />
+                                                                </div>
+                                                            </ContentTemplate>
+                                                        </asp:UpdatePanel>
+                                                        <asp:UpdateProgress AssociatedUpdatePanelID="UpdatePanel2" ID="UpdateProgress2" runat="server">
+                                                            <ProgressTemplate>
+                                                                <GroupO:UpdateProgressLoader ID="plMenu" runat="server" />
+                                                            </ProgressTemplate>
+                                                        </asp:UpdateProgress></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <table class="centerWorkingTable" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" /></td>
+                                                                        </tr>
+                                                                    </table></td>
+                                                            </tr>
+                                                        </table></td>
+                                                </tr>
+                                            </table></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tableFooter">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td style="width:80%;">
+                                                        </td>
+                                                    <td style="width:20%;text-align:right;">
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="copyHolder" style="padding-top:10px;text-align:left;padding-left:15px;">
+                                                        <asp:Label ID="lblCatCopyFooter" CssClass="copyText" runat="server" Text="© 2010 Michelin All Rights Reserved" /></td>
+                                                    <td class="copyHolder" style="padding-top:10px;text-align:right;padding-right:10px;">
+                                                        <asp:Label ID="lblCopyFooter" runat="server" CssClass="copyText" Text="© 2009 Group O Inc." /></td>
+                                                </tr>
+                                            </table></td>
+                                    </tr>
+                                </table></td>
+                        </tr> 
+                    </table></td> 
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

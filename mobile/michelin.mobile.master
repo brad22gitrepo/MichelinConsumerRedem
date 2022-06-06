@@ -1,0 +1,117 @@
+﻿<%@ master language="VB" inherits="mobile_michelin_mobile, App_Web_michelin.mobile.master.da240a29" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link id="cssLink" href="~/App_Themes/mobile/mobile.css" rel="stylesheet" type="text/css" />
+    <link id="michCssLink" href="~/App_Themes/mobile/michelin.mobile.css" rel="stylesheet"
+        type="text/css" />
+    <script src="/mobile/js/mobile.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="keywords" content="find michelin tire coupon,find michelin tire deal,find michelin tire discounts,find michelin tire promo,find michelin tire promotion,find michelin tire rebate,find michelin tire savings,find michelin tyre coupon,find michelin tyre deal,find michelin tyre discounts,find michelin tyre promo,find michelin tyre promotion,find michelin tyre rebate,find michelin tyre savings,find tire coupon,find tire deal,find tire discounts,find tire promo,find tire promotion,find tire rebate,find tire savings,find tyre coupon,find tyre deal,find tyre discounts,find tyre promo,find tyre promotion,find tyre rebate,find tyre savings,get michelin tire coupon,get michelin tire deal,get michelin tire discounts,get michelin tire promo,get michelin tire promotion,get michelin tire rebate,get michelin tire savings,get michelin tyre coupon,get michelin tyre deal,get michelin tyre discounts,get michelin tyre promo,get michelin tyre promotion,get michelin tyre rebate,get michelin tyre savings,get tire coupon,get tire deal,get tire discounts,get tire promo,get tire promotion,get tire rebate,get tire savings,get tyre coupon,get tyre deal,get tyre discounts,get tyre promo,get tyre promotion,get tyre rebate,get tyre savings,michelin tire coupon,michelin tire deal,michelin tire discounts,michelin tire promo,michelin tire promotion,michelin tire rebate,michelin tire savings,michelin tires coupon,michelin tires deal,michelin tires promo,michelin tires promotion,michelin tires rebate,michelin tires savings,michelin tyre coupon,michelin tyre deal,michelin tyre discounts,michelin tyre discounts,michelin tyre promo,michelin tyre promotion,michelin tyre rebate,michelin tyre savings,michelin tyres coupon,michelin tyres deal,michelin tyres discounts,michelin tyres promo,michelin tyres promotion,michelin tyres rebate,michelin tyres savings,tire coupon,tire deal,tire discounts,tire promo,tire promotion,tire rebate,tire savings,tires coupon,tires deal,tires promo,tires promotion,tires rebate,tires savings,tyre coupon,tyre deal,tyre discounts,tyre discounts,tyre promo,tyre promotion,tyre rebate,tyre savings,tyres coupon,tyres deal,tyres discounts,tyres promo,tyres promotion,tyres rebate,tyres savings" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor="#ecf5fa">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="smAjax" runat="server" />
+    <div id="dvBody" style="background-color: #0169b2;">
+        <br />
+        <table border="0" cellpadding="0" cellspacing="0" class="michlogosmall" style="width: 100%;">
+            <tr>
+                <td onclick="JavaScript:window.location='/mobile/michelin/login.aspx'" style="cursor: pointer;">
+                    &nbsp;
+                </td>
+                <td style="text-align: right; vertical-align: top; width: 60px;">
+                    <asp:LinkButton ID="lbtnLogout" runat="server" CausesValidation="false" CssClass="baseControl"
+                        ForeColor="White" Text="Logout" OnClick="lbtnLogout_Click"></asp:LinkButton>
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+        <br />
+        <div class="smallyellowgrad">
+            &nbsp;
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="opaqgrad" style="background-color: #ecf5fa;">
+            &nbsp;
+        </div>
+        <table id="tblExternalLinks" runat="server" border="0" cellpadding="2" cellspacing="0"
+            style="background-color: #ecf5fa; border-bottom: solid 1px DarkGray; width: 100%;">
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td style="text-align: right; width: 60px;">
+                    Visit Us &nbsp;
+                </td>
+                <td style="width: 46px;">
+                    <center>
+                        <a href="http://www.facebook.com/MichelinMan">
+                            <img src="/images/mobile/facebook.png" style="border: none;" />
+                        </a>
+                    </center>
+                </td>
+                <td style="width: 2px;">
+                    <div style="border-left: solid 1px DarkGrey; height: 25px;">
+                        &nbsp;
+                    </div>
+                </td>
+                <td style="width: 46px;">
+                    <center>
+                        <a href="http://twitter.com/MichelinManUSA">
+                            <img src="/images/mobile/twitter.png" style="border: none;" />
+                        </a>
+                    </center>
+                </td>
+                <td style="width: 2px;">
+                    <div style="border-left: solid 1px DarkGrey; height: 25px;">
+                        &nbsp;
+                    </div>
+                </td>
+                <td style="width: 46px;">
+                    <center>
+                        <a href="http://www.youtube.com/michelinman">
+                            <img src="/images/mobile/youtube.png" style="border: none;" />
+                        </a>
+                    </center>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+        <div style="background-color: #ecf5fa; color: #0169b2; padding-top: 6px; text-align: center;
+            width: 100%;">
+            <a href="/mobile/michelin/faq.aspx" style="color: #0169b2;">FAQS</a> | <a href="/mobile/michelin/contactus.aspx"
+                style="color: #0169b2;">Contact Us</a> | <a href="http://www.michelinman.com/privacy.page"
+                    style="color: #0169b2;">Privacy Policy</a> | <a href="http://www.michelinman.com/terms-of-use.page"
+                        style="color: #0169b2;">Terms</a>
+            <asp:Label ID="lblFullSite" runat="server" CssClass="baseControl"></asp:Label>
+        </div>
+        <div style="background-color: #ecf5fa; font-size: 6pt; padding-top: 6px; text-align: center;
+            width: 100%;">
+            ©
+            <asp:Label ID="lblCopyYear" runat="server" CssClass="baseControl" Font-Size="6pt"></asp:Label>
+            Michelin North America Inc., All rights reserved.
+            <br />
+            1 Parkway S. Greenville, SC 29615 USA <a href="tel:1-866-212-9619">1-866-212-9619</a>
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+    <script type="text/javascript">
+        function pageLoad(args)
+        {
+            SetStyleSheet();
+        }
+    </script>
+    </form>
+</body>
+</html>
