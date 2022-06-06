@@ -1,0 +1,94 @@
+﻿.landingBody {
+    background-image:url(images/landingbackground.png);
+    background-repeat:repeat-x;
+    background-color:#ffffff;
+}
+
+#LandingTable {
+    width:1075px;
+    min-height:800px;
+    height:800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    border:none;
+    padding:0px 1px 0px 1px;
+}
+
+#LandingMasterTable {
+    width:973px;
+    min-height:700px;
+    height:700px;
+    border:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px 0px 0px 0px;
+}
+
+.landingHeader {
+    font-size:29px;
+}
+
+.landingContentHolder {
+    height:570px;
+    border:1px none #ff0000;
+}
+
+.landingBlueHeader {
+    font-size:26px;
+    color:#0d9ee7;
+}
+
+.landingBlueSubHeader {
+    font-size:22px;
+    color:#0d9ee7;
+}
+
+
+.MichlelinButton {
+    width:297px;
+    height:452px;
+    background-image:url(images/btnMichelin.png);
+    background-repeat:no-repeat;
+}
+
+.MichlelinButton:Hover {
+    width:297px;
+    height:452px;
+    background-image:url(images/btnMichelin-On.png);
+    background-repeat:no-repeat;
+}
+
+.BFGoodrichButton {
+    width:297px;
+    height:452px;
+    background-image:url(images/btnBFGoodrich.png);
+    background-repeat:no-repeat;
+}
+
+.BFGoodrichButton:Hover {
+    width:297px;
+    height:452px;
+    background-image:url(images/btnBFGoodrich-On.png);
+    background-repeat:no-repeat;
+}
+
+.UniroyalButton {
+    width:297px;
+    height:452px;
+    background-image:url(images/btnUniroyal.png);
+    background-repeat:no-repeat;
+}
+
+.UniroyalButton:Hover {
+    width:297px;
+    height:452px;
+    background-image:url(images/btnUniroyal-On.png);
+    background-repeat:no-repeat;
+}
+
+.copyLandingText {
+    font-size:10px;
+    color:#666666;
+}

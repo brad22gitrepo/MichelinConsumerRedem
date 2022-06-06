@@ -1,0 +1,24 @@
+﻿.unilogo
+{
+    background-image: url(/images/mobile/UniroyalLogo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 68px;
+}
+.unilogo:Hover
+{
+    background-image: url(/images/mobile/UniroyalLogo-On.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 68px;
+}
+.unilogoSoon
+{
+    background-image: url(/images/mobile/UniroyalLogo-On.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 68px;
+}

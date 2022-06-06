@@ -1,0 +1,38 @@
+﻿.Tabs .ajax__tab_header {font-family:Arial,Helvetica,sans-serif;font-size:11px;background:url(images/tabs/tab-line.gif) repeat-x bottom;}
+.Tabs .ajax__tab_outer {background:url(images/tabs/tab-right.gif) no-repeat right;height:21px;}
+.Tabs .ajax__tab_inner {padding-left:3px;background:url(images/tabs/tab-left.gif) no-repeat;}
+.Tabs .ajax__tab_tab {height:16px;padding-top:6px;padding-left:5px;padding-right:5px;padding-bottom:4px;margin:0;background:url(images/tabs/tab.gif) repeat-x;}
+.Tabs .ajax__tab_hover .ajax__tab_outer {background:url(images/tabs/tab-hover-right.gif) no-repeat right;}
+.Tabs .ajax__tab_hover .ajax__tab_inner {background:url(images/tabs/tab-hover-left.gif) no-repeat;}
+.Tabs .ajax__tab_hover .ajax__tab_tab {background:url(images/tabs/tab-hover.gif) repeat-x;}
+.Tabs .ajax__tab_active .ajax__tab_outer {background:url(images/tabs/tab-active-right.gif) no-repeat right;}
+.Tabs .ajax__tab_active .ajax__tab_inner {background:url(images/tabs/tab-active-left.gif) no-repeat;}
+.Tabs .ajax__tab_active .ajax__tab_tab {font-weight:bold;padding-left:5px;padding-right:5px;background:url(images/tabs/tab-active.gif) repeat-x;}
+.Tabs .ajax__tab_body {font-family:verdana,tahoma,helvetica;font-size:10pt;border:1px solid #999999;border-top:0;padding-left:8px;padding-right:8px;padding-top:15px;padding-bottom:15px;background-color:#f3f3f3;}
+
+.Tabs1 .ajax__tab_header {font-family:Arial,Helvetica,sans-serif;font-size:12px;background:url(images/tabs/tab-line.gif) repeat-x bottom;}
+.Tabs1 .ajax__tab_outer {background:url(images/tabs/tab-rightNew.gif) no-repeat right;height:26px;}
+.Tabs1 .ajax__tab_inner {padding-left:3px;background:url(images/tabs/tab-leftNew.gif) no-repeat;}
+.Tabs1 .ajax__tab_tab {height:16px;padding-top:6px;padding-left:5px;padding-right:5px;padding-bottom:4px;margin:0;background:url(images/tabs/tabNew.gif) repeat-x;}
+.Tabs1 .ajax__tab_hover .ajax__tab_outer {background:url(images/tabs/tab-hover-rightNew.gif) no-repeat right;}
+.Tabs1 .ajax__tab_hover .ajax__tab_inner {background:url(images/tabs/tab-hover-leftNew.gif) no-repeat;}
+.Tabs1 .ajax__tab_hover .ajax__tab_tab {background:url(images/tabs/tab-hoverNew.gif) repeat-x;}
+.Tabs1 .ajax__tab_active .ajax__tab_outer {background:url(images/tabs/tab-active-rightNew.gif) no-repeat right;}
+.Tabs1 .ajax__tab_active .ajax__tab_inner {background:url(images/tabs/tab-active-leftNew.gif) no-repeat;}
+.Tabs1 .ajax__tab_active .ajax__tab_tab {font-weight:bold;padding-left:5px;padding-right:5px;background:url(images/tabs/tab-activeNew.gif) repeat-x;}
+.Tabs1 .ajax__tab_body {font-family:verdana,tahoma,helvetica;font-size:10pt;border:1px solid #999999;border-top:0;padding-left:8px;padding-right:8px;padding-top:15px;padding-bottom:15px;background-color:#ffffff;}
+
+.TabPanalPadding    {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.TabsTaskList .ajax__tab_body {font-family:verdana,tahoma,helvetica;font-size:10pt;border:1px solid #999999;border-top:0;padding-left:8px;padding-right:8px;padding-top:15px;padding-bottom:15px;background-color:#f3f3f3;}
+
+
+.accordion {width:100%;}  
+.accordionHeader {border:1px solid #2F4F4F;color:white;background-color:#000000;font-size:12px;font-weight:bold;padding:5px;margin-top:5px;cursor:pointer;  }  
+.accordionHeaderSelected {border:1px solid #2F4F4F;color:white;background-color:#666666;font-size:12px;font-weight:bold;padding:5px;margin-top:5px;cursor:pointer;  }  
+.accordionContent {background-color:#fffae6;border:1px solid #2F4F4F;border-top:none;padding:5px;padding-top:10px;} 

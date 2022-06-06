@@ -1,0 +1,238 @@
+﻿.FooterText {
+    font-size:10px;
+    color:#535353;
+}
+
+a.FooterLink    {
+    font-size:10px;
+    color:#535353;
+    text-decoration:none;
+}
+
+a.FooterLink:hover   {
+    text-decoration:underline;
+}
+
+
+.FooterSeperator {
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.watermarkTextBox-Email {
+    border:1px solid #c6c6c6;
+    background-image:url(images/imgWatermakEmail.png);
+    background-repeat:no-repeat; 
+    background-position:left center; 
+    vertical-align:middle;
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#f7f7f7;
+    text-align:right;
+}
+
+.watermarkTextBox-Password {
+    border:1px solid #c6c6c6;
+    background-image:url(images/imgWatermarkPassword.png);
+    background-repeat:no-repeat; 
+    background-position:left center; 
+    vertical-align:middle;
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#f7f7f7;
+    text-align:right;
+}
+
+.watermarkTextBox-Password1 {
+    border:1px solid #c6c6c6;
+    background-image:url(images/imgWatermarkPassword1.png);
+    background-repeat:no-repeat; 
+    background-position:left center; 
+    vertical-align:middle;
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#f7f7f7;
+    text-align:right;
+}
+
+
+.textBox-label {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}
+
+.IEtext-box   {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}
+
+.Operatext-box   {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}
+
+.text-box   {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}
+
+select.myListBox {
+    border:1px solid #c6c6c6;
+     background-color:#f7f7f7;
+    color: #666666;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    width:310px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+
+select.myListBox option.listboxDefault:disabled  {
+    color:#ffffff;
+    background-color:#666666; /* header background color  */
+}
+
+select.myListBox option.listboxDefault:selected  {
+    color:#ffffff;
+    background-color:#e0fbe4; /* light green */
+}
+
+select.myListBox listboxDefault:disabled {
+    color:#ffffff;
+    background-color:#666666; /* header background color  */
+}
+
+.Myselect ul li {font-size:10px;margin:0;padding:0;list-style-type:disc;min-width:150px;-webkit-appearance:none;}
+
+
+.gv {
+    width:100%;
+    border-style:solid;
+    border-left:1px;
+    border-right:1px;
+    border-top:none;
+    border-width:1px;
+    border-color:#999999;
+    padding:5px 5px 5px 5px;
+}
+
+.row    {background-color:Gray;}
+.gv tr.row  {background-color: #FFFFFF;border-bottom:solid 1px #999999;}
+.gv tr.row:hover, .alternateRow:hover    {background-color:#d9eff9; /* light blue  */}
+
+.gv tr td {
+    vertical-align:middle;
+    border-left:1px solid #999999;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+}
+
+.gv td {border-left-color:#999999;border-right-color:#999999;}
+.Row tr{background-color:Blue;color:White;}
+.Row td{color:White;}
+.alternateRow {background-color:#e1e6e9;border-bottom:solid 1px #999999;}
+.AlternatingRow tr {color:Black;}
+.AlternatingRow td {color:Black;}
+
+.gvHeader   {
+    border-color:#000000;
+    border-style:solid;
+    border-width:1px;
+    height:35px;
+    background-color:#000000; 
+    vertical-align:middle;
+    color:#ffffff;
+}
+
+.gvHeader a {color:#ffffff;text-decoration:none;font-weight:bold;}
+.gvHeader a:hover {text-decoration:underline;}
+
+
+
+.pageHeaderText {
+    font-family:Museo Sans 900,Arial, Helvetica, Sans-Serif;
+    font-size:24px;
+    color:#ffffff;
+    font-weight:bold;
+    font-style :italic;
+    background-color:#000000;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    text-transform:uppercase;
+}
+
+.pageHeaderSubText {
+    font-size:16px;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+
+.FAQQuestionHolder {padding-left:10px;padding-bottom:10px;}
+.FAQAnswerHolder {padding-left:20px;padding-bottom:10px;padding-right:20px;width:100%;}
+.FAQQuestion {font-weight:bold;color:#000000;font-style:italic;}
+
+
+.paragraphBreak {padding-bottom:30px;}
+.paragraphBreakSmall {padding-bottom:20px;}
+
+.dashboardName {color:#004785;}
+
+.GiantText {font-family:Museo Sans 900,Arial, Helvetica, Sans-Serif;font-size:24px;font-weight:bold;text-transform:uppercase;font-style:italic;}
+.redBoldText {font-family:Museo Sans 900,Arial, Helvetica, Sans-Serif;color:#ff0000;font-weight:bold;text-transform:uppercase;font-style:italic;}
+
+.BreadcrumbHolder {height:47px;background-color:#000000;text-align:right;padding-top:5px;padding-right:5px;}
+.BreadcrumbOff {vertical-align:top;padding-left:5px;padding-right:5px;font-family:Museo Sans 900,Arial, Helvetica, Sans-Serif;font-size:12px;font-weight:bold;font-style:italic;color:#666666;text-transform:uppercase;white-space:nowrap;}
+.BreadcrumbOn {vertical-align:top;padding-left:5px;padding-right:5px;font-family:Museo Sans 900,Arial, Helvetica, Sans-Serif;font-size:12px;font-weight:bold;font-style:italic;color:#ed1c24;text-transform:uppercase;white-space:nowrap;}

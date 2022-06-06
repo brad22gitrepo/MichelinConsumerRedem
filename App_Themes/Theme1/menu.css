@@ -1,0 +1,55 @@
+﻿.menu {
+    background-color:#0169b2;  /* michelin blue  */
+    height:136px;
+    width:100%;
+}
+
+.menu2 {
+    background-color:#0169b2;  /* michelin blue  */
+    height:100px;
+    width:100%;
+}
+
+
+.mainMenu {
+    background-color:#0169b2;  /* michelin blue  */
+    background-image:url(images/menuButtonBackground.png);
+    background-repeat:repeat-x;
+    position:relative;
+    top:106px;
+    width:100%;
+}
+
+.mainMenuSubTextHolder {
+    position:relative;
+    top:3px;
+    width:100%;
+}
+
+.btn {
+    background-color:#0169b2;  /* michelin blue  */
+    background-image:url(images/menuButtonBackground.png);
+    background-repeat:repeat-x;
+    height:32px;
+    color:#ffffff;
+    padding-left:15px;
+    padding-right:15px;
+    border:none;
+}
+
+.btn:hover {
+    background:url(images/menuButtonBackground-On.png);
+    background-repeat:repeat-x;
+    color:#333333;
+}
+
+.btnOn {
+    background-color:#0169b2;  /* michelin blue  */
+    background:url(images/menuButtonBackground-On.png);
+    background-repeat:repeat-x;
+    height:32px;
+    color:#333333;
+    padding-left:15px;
+    padding-right:15px;
+    border:none;
+}

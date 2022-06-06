@@ -1,0 +1,108 @@
+﻿#BackgroundHolderTable
+{
+    width: 1075px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: none;
+    padding: 0px 0px 0px 0px;
+}
+#MasterTable
+{
+    width: 973px;
+    border: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+}
+.WorkingMasterTable
+{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.centerWorkingTable
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px none #ff0000;
+}
+#mainMenu
+{
+    background-color: #ffffff;
+    background-image: url(images/Header.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 973px;
+    height: 41px;
+    border: none;
+}
+#HomeTable
+{
+    width: 973px;
+    height: 564px;
+    background-image: url(images/homePageImage.png);
+    background-repeat: no-repeat;
+}
+#ContactUsTable
+{
+    width: 973px;
+    height: 564px;
+    background-color: Black;
+    background-image: url(images/backgroundContactUs.png);
+    background-repeat: no-repeat;
+}
+#LoginTable
+{
+    width: 973px;
+    height: 564px;
+    background-image: url(images/backgroundLogin.png);
+    background-repeat: no-repeat;
+}
+#ReceiptTable
+{
+    width: 973px;
+    height: 563px;
+    background-image: url(images/backgroundReceipt.png);
+    background-repeat: no-repeat;
+}
+#DashboardTable
+{
+    width: 973px;
+    height: 564px;
+    background-color: Black;
+    background-image: url(images/backgroundDashboard.png);
+    background-repeat: no-repeat;
+}
+.WorkingTable
+{
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.michButton
+{
+    height: 29px;
+    width: 119px;
+    background-image: url(images/btnBackground.png);
+    background-repeat: repeat-x;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.michButton:Hover
+{
+    text-decoration: underline;
+}

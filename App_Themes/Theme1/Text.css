@@ -1,0 +1,208 @@
+﻿.slim   { 
+    font-size:12px;
+    background-color:#ffffff;
+    border:solid 1px #333333;
+    color: #646464;
+}
+
+.copyText {
+    font-size:10px;
+    color:#FFFFFF;
+}
+
+.labelHolder {
+    text-align:right;
+    padding-right:3px;
+    vertical-align:middle;
+    white-space:nowrap;
+    padding-top:1px;
+}
+
+.textHolder {
+    text-align:left;
+    vertical-align:middle;
+    padding-top:1px;
+}
+
+.validatorHolder {
+    text-align:left;
+    vertical-align:middle;
+    padding-top:1px;
+    padding-left:2px;
+    width:100%;
+}
+
+
+.textHeaderBold {
+    font-size:12px;
+    font-weight:bold;
+}
+
+.countGridHeader {
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.countGridHaderHolder {
+    text-align:center;
+    vertical-align:bottom;
+    background-color:#666666;
+}
+
+.gv {
+    width:100%;
+    border-style:solid;
+    border-left:1px;
+    border-right:1px;
+    border-top:none;
+    border-width:1px;
+    border-color:#999999;
+    padding:5px 5px 5px 5px;
+}
+
+.row    {
+    background-color:Gray;
+}
+
+.gv tr.row  {
+    background-color: #FFFFFF;
+    border-bottom:solid 1px #999999;
+}
+
+.gv tr.row:hover, .alternateRow:hover    {
+   background-color: #fef3c5; /* light yellow  */
+}
+
+.gv tr td {
+    vertical-align:middle;
+    border-left:1px solid #999999;
+    border-right:1px solid #999999;
+    border-bottom:1px solid #999999;
+}
+
+.gv td {
+    border-left-color:#999999;
+    border-right-color:#999999;
+}
+
+
+.Row tr
+{
+    background-color:Blue;
+    color:White;
+}
+
+.Row td
+{
+    color:White;
+    
+}
+
+.alternateRow {
+    background-color:#e1e6e9;
+    border-bottom:solid 1px #999999;
+}
+
+.AlternatingRow tr
+{
+    color:Black;
+}
+
+.AlternatingRow td
+{
+    color:Black;
+}
+
+.gvHeader   {
+    background-image:url(images/gvHeaderBackground.png);
+    background-repeat:repeat-x;
+    border-color:#999999;
+    border-style:solid;
+    border-width:1px;
+    height:35px;
+    background-color:#025593; 
+    vertical-align:middle;
+    color:#ffffff;
+}
+
+.gvHeader a {
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.gvHeader a:hover {
+    text-decoration:underline;
+}
+
+select.myListBox {
+    border:1px solid #c6c6c6;
+     background-color:#f7f7f7;
+    color: #666666;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    width:310px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+
+select.myListBox option.listboxDefault:disabled  {
+    color:#ffffff;
+    background-color:#666666; /* header background color  */
+}
+
+select.myListBox option.listboxDefault:selected  {
+    color:#ffffff;
+    background-color:#e0fbe4; /* light green */
+}
+
+select.myListBox listboxDefault:disabled {
+    color:#ffffff;
+    background-color:#666666; /* header background color  */
+}
+
+.Myselect ul li {font-size:10px;margin:0;padding:0;list-style-type:disc;min-width:150px;-webkit-appearance:none;}
+
+.masterHeaderText {
+    font-size:11px;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+
+.loginText {
+    text-decoration:none;
+    font-size:11px;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+.loginText:Hover {
+    text-decoration:underline;
+}
+
+.michHomeHeader {
+    font-size:19px;
+    font-weight:bold;
+}
+
+textbox {
+    color:#666666;
+}
+
+.FAQQuestion {
+    font-weight:bold;
+    color:#666666;
+}
+
+.normalText {
+    color:#666666;
+    font-weight:normal;
+}
+
+.errorText {
+    color:#ff0000;
+    font-weight:normal;
+}

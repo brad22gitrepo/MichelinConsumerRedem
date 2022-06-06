@@ -1,0 +1,165 @@
+﻿#michHome {
+    width:973px;
+    min-height:584px;
+    height:584px;
+    border:1px none #ff0000;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px 0px 0px 0px;
+    background-image:url(images/homebackground.png);
+    background-repeat:no-repeat;
+}
+
+.LoginHolder {
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    background: transparent;
+    border:1px none #ff0000;
+}
+
+.RegisterHolder {
+    width:550px;
+    margin-left:auto;
+    margin-right:auto;
+    background: transparent;
+    border:1px none #ff0000;
+}
+
+.pageHeaderText {
+    font-size:22px;
+    font-weight:bold;
+    padding-bottom:20px;
+}
+
+.pageHeaderSubText {
+    font-size:16px;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+
+.michButton {
+    height:29px;
+    width:119px;
+    background-image:url(images/btnBackground.png);
+    background-repeat:repeat-x;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+    border:none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+
+.michButton:Hover {
+    text-decoration:underline;
+}
+
+.michButton-Off.disabled     {
+    height:29px;
+    width:119px;
+    background-image:url(images/btnBackground-Off.png);
+    background-repeat:repeat-x;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+    border:none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+
+.michButton-Off:Hover {
+    text-decoration:underline;
+}
+
+
+.watermarkTextBox-Password {
+    border:1px solid #c6c6c6;
+    background-image:url(images/imgWatermarkPassword.png);
+    background-repeat:no-repeat; 
+    background-position:left center; 
+    vertical-align:middle;
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#f7f7f7;
+    text-align:right;
+}
+
+.watermarkTextBox-Password1 {
+    border:1px solid #c6c6c6;
+    background-image:url(images/imgWatermarkPassword1.png);
+    background-repeat:no-repeat; 
+    background-position:left center; 
+    vertical-align:middle;
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#f7f7f7;
+    text-align:right;
+}
+
+
+.textBox-label {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}
+
+.IEtext-box   {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}
+
+.Operatext-box   {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}
+
+.text-box   {
+    border:1px solid #c6c6c6; 
+    width:310px;
+    background-color:#f7f7f7;
+    margin-right: 5px;
+    margin-top:2px;
+    padding:2px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+    color:#666666;
+}

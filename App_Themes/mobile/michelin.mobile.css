@@ -1,0 +1,189 @@
+﻿.smallyellowgrad
+{
+    background-image: url(/images/mobile/smallyellowgrad.png);
+    background-repeat: repeat-x;
+    height: 6px;
+}
+.michlogo
+{
+    background-image: url(/images/mobile/MichelinLogo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 68px;
+}
+.michlogosmall
+{
+    background-image: url(/images/mobile/MichelinLogoSmall.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 52px;
+}
+.michbgleft
+{
+    background-image: url(/images/mobile/mainbglft.png);
+    background-position-x: left;
+    background-repeat: repeat-y;
+    width: 100%;
+}
+.michbgright
+{
+    background-image: url(/images/mobile/mainbgrgt.png);
+    background-position: right top;
+    background-repeat: repeat-y;
+    width: 100%;
+}
+.opaqgrad
+{
+    background-image: url(/images/mobile/opaqgrad.png);
+    background-repeat: repeat-x;
+    height: 11px;
+    width: 100%;
+}
+.progressBackgroundFilter
+{
+    position:fixed; 
+    top:0px; 
+    bottom:0px; 
+    left:0px;
+    right:0px;
+    overflow:hidden; 
+    padding:0; 
+    margin:0; 
+    background-color:#333333; 
+    filter:alpha(opacity=40); 
+    opacity:0.43; 
+    z-index:1000; 
+}
+.processMessageLoader
+{ 
+    text-align:center;
+    position:fixed; 
+    top:30%; 
+    left:40%;
+    padding:10px; 
+    width:25%; 
+    height:50px;
+    z-index:1001; 
+    background-color:#ffffff;
+    border:solid 3px #6c6a6b; /* dark gray */
+}
+.modal-dialogGraph
+{	
+    border: 3px solid #6c6a6b; /* primary dark gray */
+	background-color: #ffffff;
+	width:600px;
+	padding:10px;
+    z-index:1001; 
+    position:fixed;
+    top:30%;
+}
+.modelContentHeader
+{
+    color:#f47b20;
+    font-size:18px;
+    font-family:Verdana;
+}
+.modalButton
+{
+    color:#FFFFFF;
+    text-align:center;
+    background-color:#0096d6; /* menu blue */
+    text-align:center;
+    vertical-align:middle;
+    padding-left:20px;
+    padding-right:20px;
+    border:solid 1px #333333;
+}
+.modalContentArea
+{
+    padding:10px 5px 10px 15px;
+    background-color:#ffffff;
+}
+.modelImageButton
+{
+    color:#FFFFFF;
+    text-align:center;
+    text-align:center;
+    vertical-align:middle;
+    padding-left:20px;
+    padding-right:20px;
+}
+.ModalBackground
+{
+    position:fixed; 
+    top:0px; 
+    bottom:0px; 
+    left:0px;
+    right:0px;
+    overflow:hidden; 
+    padding:0; 
+    margin:0; 
+    background-color:#333333; 
+    filter:alpha(opacity=40); 
+    opacity:0.43; 
+    z-index:1000; 
+}
+.titleBar
+{
+	padding: 5px;
+	position: relative;
+	z-index: 12203;
+	vertical-align:middle;
+}
+.titleBarTextHolder
+{
+    background-color:#0169b2;  /* michelin blue  */
+    background-image:url(/images/menuButtonBackground.png);
+    background-repeat:repeat-x;
+	height: 32px;
+	padding-left:5px;
+    vertical-align:middle;
+}
+.titleBarText
+{
+    color: #ffffff;
+    font-size:18px;
+}
+.closeButton
+{
+    background-color:#ffffff;
+    padding-left: 10px;
+    vertical-align:middle;
+}
+.michButton
+{
+    height:29px;
+    width:119px;
+    background-image:url(/images/btnBackground.png);
+    background-repeat:repeat-x;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+    border:none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+.michButton:Hover
+{
+    text-decoration:underline;
+}
+.michButton-Off.disabled
+{
+    height:29px;
+    width:119px;
+    background-image:url(/images/btnBackground-Off.png);
+    background-repeat:repeat-x;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+    border:none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+.michButton-Off:Hover
+{
+    text-decoration:underline;
+}

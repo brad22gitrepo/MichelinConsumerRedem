@@ -1,0 +1,148 @@
+﻿.smallbluegrad
+{
+    background-image: url(/images/mobile/smallbluegrad.png);
+    background-repeat: repeat-x;
+    height: 6px;
+}
+.bfglogo
+{
+    background-image: url(/images/mobile/BFGLogo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 68px;
+}
+.bfglogosmall
+{
+    background-image: url(/images/mobile/BFGLogoSmall.png);
+    background-position: 3% center;
+    background-repeat: no-repeat;
+    height: 52px;
+}
+.bfgbgleft
+{
+    background-image: url(/images/mobile/bfgmainbglft.png);
+    background-position: left top;
+    background-repeat: repeat-y;
+    width: 100%;
+}
+.bfgbgright
+{
+    background-image: url(/images/mobile/bfgmainbgrgt.png);
+    background-position: right top;
+    background-repeat: repeat-y;
+    width: 100%;
+}
+.opaqgrad
+{
+    background-image: url(/images/mobile/opaqgrad.png);
+    background-repeat: repeat-x;
+    height: 11px;
+    width: 100%;
+}
+.bfgbtnbg
+{
+    background-image: url(/images/mobile/michbtnbg.png);
+    background-repeat: repeat-x;
+    border:solid 1px #000000;
+    color:#ffffff;
+    cursor:pointer;
+    height: 28px;
+}
+.progressBackgroundFilter
+{
+    position:fixed; 
+    top:0px; 
+    bottom:0px; 
+    left:0px;
+    right:0px;
+    overflow:hidden; 
+    padding:0; 
+    margin:0; 
+    background-color:#333333; 
+    filter:alpha(opacity=40); 
+    opacity:0.43; 
+    z-index:1000; 
+}
+.processMessageLoader
+{ 
+    text-align:center;
+    position:fixed; 
+    top:30%; 
+    left:40%;
+    padding:10px; 
+    width:25%; 
+    height:50px;
+    z-index:1001; 
+    background-color:#ffffff;
+    border:solid 3px #6c6a6b; /* dark gray */
+}
+.modal-dialogGraph
+{	
+    border: 3px solid #6c6a6b; /* primary dark gray */
+	background-color: #ffffff;
+	width:600px;
+	padding:10px;
+    z-index:1001; 
+    position:fixed;
+    top:30%;
+}
+.modelContentHeader
+{
+    color:#f47b20;
+    font-size:18px;
+    font-family:Verdana;
+}
+.modalButton
+{
+    color:#FFFFFF;
+    text-align:center;
+    background-color:#0096d6; /* menu blue */
+    text-align:center;
+    vertical-align:middle;
+    padding-left:20px;
+    padding-right:20px;
+    border:solid 1px #333333;
+}
+.modalContentArea
+{
+    padding:10px 5px 10px 15px;
+    background-color:#ffffff;
+}
+.titleBarTextHolder
+{
+    background-color:#000000;  /* black  */
+    background-repeat:repeat-x;
+	height: 32px;
+	padding-left:5px;
+    vertical-align:middle;
+}
+.titleBarText
+{
+    color: #ffffff;
+    font-size:18px;
+}
+.closeButton
+{
+    background-color:#ffffff;
+    padding-left: 10px;
+    vertical-align:middle;
+}
+.michButton
+{
+    height:29px;
+    width:119px;
+    background-image:url(/images/mobile/btnBackground.png);
+    background-repeat:repeat-x;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+    border:none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+    border-radius: 5px;
+}
+.michButton:Hover
+{
+    text-decoration:underline;
+}

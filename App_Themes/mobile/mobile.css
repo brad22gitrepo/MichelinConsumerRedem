@@ -1,0 +1,217 @@
+﻿body
+{
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 8pt;
+    margin: 0 0 0 0;
+}
+a
+{
+    color: Blue;
+}
+#screenModel
+{
+    width: 320px;
+}
+#title
+{
+    color: White;
+    padding-top: 6px;
+    width: 126px;
+}
+.breadCrumbFontSize
+{
+    font-size: 11px;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+.logobg
+{
+    background-image: url(/images/mobile/logobtnbg.png);
+    background-repeat: repeat-x;
+    height: 78px;
+    padding-top: 6px;
+    width: 100%;
+}
+.logobgsel
+{
+    background-image: url(/images/mobile/logobtnbgsel.png);
+    background-repeat: repeat-x;
+    height: 78px;
+    padding-top: 6px;
+    width: 100%;
+}
+.lineSpacer
+{
+    line-height: 2px;
+    width: 100%;
+}
+.rightPadding
+{
+    width: 10px;
+}
+.baseControl
+{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 8pt;
+}
+.roundedCorners
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height: 20px;
+}
+input[type='text'], input[type='password'], select
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-bottom: solid 1px LightGrey;
+    border-left: solid 1px DarkGrey;
+    border-right: solid 1px LightGrey;
+    border-top: solid 1px DarkGrey;
+    border-radius: 4px;
+    height:20px;
+}
+select
+{
+    height: 22px !important;
+}
+.watermarked
+{
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#f7f7f7;
+	color:gray;
+}
+.watermarkTextBox-Password
+{
+    border:1px solid #BEBEBE;
+    background-image:url(/images/mobile/imgWatermarkPassword.png);
+    background-repeat:no-repeat; 
+    background-position:left center; 
+    vertical-align:middle;
+    background-color:#f7f7f7;
+    color:#f7f7f7;
+    text-align:right;
+}
+.watermarkTextBox-Password2
+{
+    border:1px solid #BEBEBE;
+    background-image:url(/images/mobile/imgWatermarkPassword2.png);
+    background-repeat:no-repeat; 
+    background-position:left center; 
+    vertical-align:middle;
+    background-color:#f7f7f7;
+    color:#f7f7f7;
+    text-align:right;
+    height:20px;
+}
+.requiredCSS
+{
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#f7f7f7;
+	color:gray;
+}
+.selectedCSS
+{
+    background-color: White;
+}
+.receiptOptionInactive
+{
+    background-image: url(/images/mobile/inactiveButtonBG.png);
+    background-repeat: repeat-x;
+    border: solid 1px DarkGray;
+    vertical-align: top;
+    width: 54px;
+}
+.receiptOptionActive
+{
+    background-image: url(/images/mobile/activeButtonBG.png);
+    background-repeat: repeat-x;
+    border: solid 1px DarkGray;
+    vertical-align: top;
+    width: 54px;
+}
+.onpagedialog
+{
+    border-bottom: #BEC2C7 2px solid;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color:#EDF3F9,strength:5,direction:135);
+    background-color: #FAFCFF;
+
+    width: 575px;
+    border-top: #E3E8EE 1px solid;
+    border-left: #E3E8EE 1px solid;
+    border-right: #D9DDE3 2px solid;
+    -moz-box-shadow: #EDF3F9 0px 0px 5px 0px;
+    -webkit-box-shadow: 0px 0px 5px #EDF3F9;
+    box-shadow: 0px 0px 5px #EDF3F9;
+}
+a[href^=tel]
+{
+    color: Black;
+    font-size: 7pt;
+    text-decoration: underline;
+}
+a[href^=maps]
+{
+    color: Black;
+    font-size: 7pt;
+    text-decoration: none;
+}
+.michbtnbg
+{
+    background-image: url(/images/mobile/michbtnbg.png);
+    background-repeat: repeat-x;
+    border:solid 1px #000000;
+    color:#ffffff;
+    cursor:pointer;
+    height: 28px;
+}
+.michbtndisabledbg
+{
+    background-image: url(/images/mobile/michbtnindisabledbg.png);
+    background-repeat: repeat-x;
+    border:solid 1px #000000;
+    color: LightGrey;
+    cursor:pointer;
+    height: 28px;
+}
+.imgOnline
+{
+    background-image: url(/images/mobile/imgOnlineOption.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 88px;
+    height: 50px;
+}
+.imgFax
+{
+    background-image: url(/images/mobile/imgFaxOption.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 88px;
+    height: 50px;
+}
+.imgMail
+{
+    background-image: url(/images/mobile/imgMailOption.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 88px;
+    height: 50px;
+}
+.controlHeight
+{
+    height: 75px;
+}
+.mobileColumn
+{
+    text-align: left;
+}
+.tabletColumn
+{
+    display: none;
+    text-align: left;
+}
