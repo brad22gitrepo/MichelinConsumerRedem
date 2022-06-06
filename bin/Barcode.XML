@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Barcode</name>
+    </assembly>
+    <members>
+        <member name="M:Barcode.MicroPDF417.CreateMicroPDF417">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="M:Barcode.MicroPDF417.CreateMicroPDF417(System.String)">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <param name="barcode">The barcode text to display.</param>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="P:Barcode.MicroPDF417.AutoConfigurate">
+            <summary>
+            Allow automatic selection of a larger configuration if code is too large?
+            If so the preferredFormat will be ignored and a new format will be selected.
+            You can then use then PDFColumns and PDFRows properties to know the selected format.
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.BarcodeBackColor">
+            <summary>
+            Color of the background.
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.BarcodeMargin">
+            <summary>
+            Margin of the barcode (also know as quite zone). Default is 20 pixels.
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.BarColor">
+            <summary>
+            Color of the bars.
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.BarHeight">
+            <summary>
+            Bar height in pixels.
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.Code">
+            <summary>
+            Value to be encoded.
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.CodeBinary">
+            <summary>
+            Bytes to be painted as barcode.
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.ECI">
+            <summary>
+            Extended channel interpretation (ECI). Default is -1 (disabled).
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.EncodingMode">
+            <summary>
+            PDF417 mode. Valid values are PDF_BINARY (default),
+            PDF_TEXT (for ascii data) and PDF_NUMERIC (for numeric data).
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.ModuleSize">
+            <summary>
+            Size (width) of the bars (module).
+            </summary>
+        </member>
+        <member name="P:Barcode.MicroPDF417.PDFPreferredFormat">
+            <summary>
+            Requested micro pdf 417 format.
+            </summary>
+        </member>
+        <member name="M:Barcode.DataMatrix.CreateDataMatrix">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="M:Barcode.DataMatrix.CreateDataMatrix(System.String)">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <param name="barcode">The barcode text to display.</param>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="P:Barcode.DataMatrix.ApplyTilde">
+            <summary>
+            Gets or sets the option to process the tilde.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.BarBackColor">
+            <summary>
+            Gets or sets the background color.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.BarForeColor">
+            <summary>
+            Gets or sets the foreground color.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.BarImageFormat">
+            <summary>
+            Specifies the file format of the Barcode image.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.BarLeftMargin">
+            <summary>
+            Gets or sets the left margin.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.BarTopMargin">
+            <summary>
+            Gets or sets the top margin.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.BinaryCode">
+            <summary>
+            Gets or sets the binary value to be encoded.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.Code">
+            <summary>
+            Gets or sets the value to be encoded.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.DotsPixel">
+            <summary>
+            Gets or sets the size of the dots (in pixels) of the matrix.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.Encoding">
+            <summary>
+            Gets or sets the encoding algorithm
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.PaintedHeight">
+            <summary>
+            Gets the height of output image.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.PaintedWidth">
+            <summary>
+            Gets the width of output image.
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.PreferredFormat">
+            <summary>
+            Gets or sets the preferred format (will be over-ridden if too small).
+            </summary>
+        </member>
+        <member name="P:Barcode.DataMatrix.BarcodeSize">
+            <summary>
+            Gets or sets the overall size of the barcode.
+            </summary>
+        </member>
+        <member name="M:Barcode.Barcode1D.CreateUpc">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="M:Barcode.Barcode1D.CreateUpc(System.String,Barcode.Barcode1D.BarcodeType)">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <param name="barcode">The barcode text to display.</param>
+            <param name="upcType">The type of barcode to create.</param>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarBackColor">
+            <summary>
+            Gets or sets the background color of the barcode.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarCheckCharacter">
+            <summary>
+            Gets or sets to calculate the check character automatically.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarCODABARStartChar">
+            <summary>
+            Gets or sets the start character for codabar (Valid values are 'A', 'B', 'C' or 'D').
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarCODABARStopChar">
+            <summary>
+            Gets or sets the stop character for codabar (Valid values are 'A', 'B', 'C' or 'D').
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarCode128Set">
+            <summary>
+            Gets or sets the barcode 128 character set.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarExtraHeight">
+            <summary>
+            Gets or sets additional length (in pixels) of the bar guards in EAN codes.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarFont">
+            <summary>
+            Gets or sets the font of the text.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarFontColor">
+            <summary>
+            Gets or sets the color of the text.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarForeColor">
+            <summary>
+            Gets or sets the color of the bars.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarGuardBars">
+            <summary>
+            Gets or sets if guardbars will be higher than the other bars (Only for EAN and UPC).
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarHeight">
+            <summary>
+            Gets or sets the height of the modules (bars) in pixels.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarImageFormat">
+            <summary>
+            Specifies the file format of the Barcode image.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarLeftMargin">
+            <summary>
+            Gets or sets the left margin (in pixels).
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarPostnetHeightShortBar">
+            <summary>
+            Gets or sets the height of short bars in Postnet symbols.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarPostnetHeightTallBar">
+            <summary>
+            Gets or sets the height of tall bars in Postnet symbols.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarSupHeight">
+            <summary>
+            Gets or sets the relative height of the supplement's bars (only EAN and UPC).
+            The default (0.8) means 80% of the normal bars.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarSupplement">
+            <summary>
+            Gets or sets the supplement for the barcode.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarSupSeparation">
+            <summary>
+            Gets or sets the distance between main code and the supplement.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarTopMargin">
+            <summary>
+            Gets or sets the top margin (in pixels).
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarType">
+            <summary>
+            Gets or sets the barcoding symbology to use.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarUPCEANSupplement2">
+            <summary>
+            Gets or sets the 2 digits supplement for EAN codes.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarUPCEANSupplement5">
+            <summary>
+            Gets or sets the 5 digits supplement for EAN codes.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarUPCESytem">
+            <summary>
+            Gets or sets the UPC System.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.Code">
+            <summary>
+            Gets or sets the value to be encoded.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.HSize">
+            <summary>
+            Gets or sets the how to calculate the height of the bars.
+            A value of 0.5 means that the bars should be half the length of the symbol.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.ISize">
+            <summary>
+            Gets or sets the intercharacter separator , only for BAR39.
+            A value of 1 means that the separator will have the same length as X.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.NSize">
+            <summary>
+            Gets or sets the width of wide modules (bars), as multiplier of NSize.
+            A value of 2, means that wide bars will be 2 times the width of narrow bars. The default vaue is 2.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.PaintedHeight">
+            <summary>
+            Gets the height of the painted barcode image.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.PaintedWidth">
+            <summary>
+            Gets the width of the painted barcode image.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.XSize">
+            <summary>
+            Gets or sets the width in pixels of narrow bars. The default is 1.
+            </summary>
+        </member>
+        <member name="P:Barcode.Barcode1D.BarcodeSize">
+            <summary>
+            Gets or sets the overall size of the barcode.
+            </summary>
+        </member>
+        <member name="T:Barcode.Barcode1D.BarcodeType">
+            <summary>The type of barcode to be used.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.BAR39">
+            <summary>Code 39 is an alphanumeric bar code that can encode decimal numbers, the upper case alphabet, and the following special symbols: _ . * $ / % +. If the barcheckCharacter flag is set RBarCode will calculate the optional check character (modulus 43).</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.BAR39EXT">
+            <summary>Extended Code 39 encodes the full 128 character ASCII character. If the BarCheckCharacter flag is set RBarCode will calculate the optional check character (modulus 43).</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.INTERLEAVED25">
+            <summary>Interleaved 2 of 5 code is a numeric only bar code. If the BarCheckCharacter flag is set RBarCode will calculate the optional modulus 10 check character.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.CODE11">
+            <summary>Code 11 is a numeric, high density code with one special character - .If the BarCheckCharacter flag is set RBarCode will calculate check character. If the value to be encoded is longer than 10 digits, a second check character will be calculated.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.CODABAR">
+            <summary>Codabar is a discrete, numeric code with special characters (-$:/.+). If the BarCheckCharacter flag is set RBarCode will calculate the optional modulus 16 check character.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.MSI">
+            <summary>MSI Code is a numeric. If the CHECK_CHAR flag is set RBarCode will calculate the modulus 10 check character.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.UPCA">
+            <summary>UPC-A is used for marking products which are sold at retail in the USA. Version A encodes a twelve digit number. The first number encoded is the number system character, the next ten digits are the data characters, and the last digit is the check character.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.IND25">
+            <summary>Industrial 2 of 5 is a numeric-only barcode that has been in use a long time. Unlike Interleaved 2 of 5, all of the information is encoded in the bars; the spaces are fixed width and are used only to separate the bars. The code is self-checking and does not include a checksum.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.MAT25">
+            <summary>MAT 25 is a linear barcode symbology.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.CODE93">
+            <summary>Code 93 is a more compact version of Code 39. It encodes exactly the same characters as Code 39, but uses 9 barcode elements per character instead of 15. If the BarCheckCharacter flag is set RBarCode will calculate the optional modulus 43 check character .</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.EAN13">
+            <summary>The symbol encodes 13 characters: the first two or three are a country code which identify the country in which the manufacturer is registered (not necessarily where the product is actually made). The country code is followed by 9 or 10 data digits (depending on the length of the country code), and a checksum digit.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.EAN8">
+            <summary>EAN-8 is a shortened version of the EAN-13 code. It includes a 2 or 3 digit country code, 4 of 5 data digits (depending on the length of the country code), and a checksum digit.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.UPCE">
+            <summary>The UPC-E code is a compressed barcode which is intended for use on small items. Compression works by squeezing extra zeroes out of the barcode and then automatically re-inserting them at the scanner. Only barcodes containing zeroes are candidates for the UPC-E symbol.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.CODE128">
+            <summary>Code 128 is a continuous, multilevel, full ASCII code. If the BarCheckCharacter flag is set RBarCode will calculate the mandatory check character (modulus 103).</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.CODE93EXT">
+            <summary>Code 93 Extended is linear barcode symbology derived from Code 93 for encoding all 128 ASCII letters.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.POSTNET">
+            <summary>Postnet is acronym for Postal Numeric Encoding Technique employed to encode information or data available in zip form. Postant was developed by U.S. Post Office.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.BarcodeType.EAN128">
+            <summary>EAN.UCC 128 is an expanded form of Code 128 and was created to give a universal standard for transferring data between disparate industries. </summary>
+        </member>
+        <member name="T:Barcode.Barcode1D.Code128">
+            <summary>Set of charaters to be used in code128.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.Code128.Code128A">
+            <summary>Code 128A refers to linear barcode symbology developed for encoding alphabets, control characters like tab and new line and numbers.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.Code128.Code128B">
+            <summary>Code 128B is one dimensional barcode symbology designed to encode digits form 0 to 9, capital and small alphabets.</summary>
+        </member>
+        <member name="F:Barcode.Barcode1D.Code128.Code128C">
+            <summary>Code 128C is defined as a linear continuous barcode symbology consisting of numbers with one check digit.</summary>
+        </member>
+        <member name="T:Barcode.Barcode1D.UPCESystem">
+            <summary>The parity used for each character.</summary>
+        </member>
+        <member name="M:Barcode.NativeMethods.LCMapString(System.Int32,System.Int32,System.String@,System.Int32,System.String@,System.Int32)">
+            <summary>
+            Either maps an input character string to another using a specified transformation or
+            generates a sort key for the input string.
+            </summary>
+        </member>
+        <member name="M:Barcode.NativeMethods.LCMapString(System.Int32,System.Int32,System.Byte[]@,System.Int32,System.Byte[]@,System.Int32)">
+            <summary>
+            Either maps an input character string to another using a specified transformation or
+            generates a sort key for the input string.
+            </summary>
+        </member>
+        <member name="M:Barcode.NativeMethods.LCMapString(System.Int32,System.Int32,System.Byte[]@,System.Int32,System.String@,System.Int32)">
+            <summary>
+            Either maps an input character string to another using a specified transformation or
+            generates a sort key for the input string.
+            </summary>
+        </member>
+        <member name="M:Barcode.NativeMethods.IsNumeric(System.Object)">
+            <summary>
+            Checks if a given object is numeric.
+            </summary>
+            <param name="Expression">The numeric object to check.</param>
+            <returns>Returns true if valid, otherwise false.</returns>
+        </member>
+        <member name="M:Barcode.PDF417.CreatePDF417">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="M:Barcode.PDF417.CreatePDF417(System.String)">
+            <summary>
+            Creates a byte array composed of the image bytes.
+            </summary>
+            <param name="barcode">The barcode text to display.</param>
+            <returns>Returns a byte array of the barcodes image bytes.</returns>
+        </member>
+        <member name="P:Barcode.PDF417.BarImageFormat">
+            <summary>
+            Specifies the file format of the Barcode image.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.HorizontalPixelShaving">
+            <summary>
+            Gets or sets the horizontal pixel shaving.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PaintedHeight">
+            <summary>
+            Gets the height in pixels of the image.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PaintedWidth">
+            <summary>
+            Gets the width in pixels of the image.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFBackColor">
+            <summary>
+            Gets or sets the background color of the barcode.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFBarHeight">
+            <summary>
+            Gets or sets the height of bars (in pixels).
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFBarWidth">
+            <summary>
+            Gets or sets the width of bars (in pixels).
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFCode">
+            <summary>
+            Gets or sets the value to be encoded.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFCodeBinary">
+            <summary>
+            Gets or sets the binary value to be encoded.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFColumns">
+            <summary>
+            Gets or sets the number of columns of the PDF417 symbol (default is 10).
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFECLevel">
+            <summary>
+            Gets or sets the error correction level (default is 0). Valid values are 0, 1, 2, 3, 4 and 5. 
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFForeColor">
+            <summary>
+            Gets or sets the foreground color of the barcode.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFLeftMargin">
+            <summary>
+            Gets or sets the left margin in pixels.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFMaxRows">
+            <summary>
+            Gets or sets the maximum number of rows.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFMode">
+            <summary>
+            Gets or sets the compaction mode.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFRows">
+            <summary>
+            Gets or sets the number of rows of the PDF417 symbol (default is 0).
+            If 0 the number is automatically calulated.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDFTopMargin">
+            <summary>
+            Gets or sets the top margin in pixels.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.VerticalPixelShaving">
+            <summary>
+            Gets or sets the vertical pixel shaving.
+            </summary>
+        </member>
+        <member name="P:Barcode.PDF417.PDF417Size">
+            <summary>
+            Gets or sets the overall size of the PDF417.
+            </summary>
+        </member>
+    </members>
+</doc>
