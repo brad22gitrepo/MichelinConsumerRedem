@@ -1,0 +1,108 @@
+﻿<%@ master language="VB" inherits="BFGoodrich_BFGMasterLanding, App_Web_bfgmasterlanding.master.47fa3bd0" %>
+<%@ Register Src="~/Controls/ProgressLoader.ascx" TagPrefix="GroupO" TagName="UpdateProgressLoader" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="SHORTCUT ICON" href="favicon.ico" />
+    
+   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link href="~/App_Themes/BFGoodrich/BFGoodrichHome.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/BFGoodrich/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/BFGoodrich/Text.css" rel="stylesheet" type="text/css" />
+    <link href="~/App_Themes/BFGoodrich/ModalPopup.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder id="head" runat="server" />
+
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <table id="BackgroundHolderTable" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td style="width:100%;vertical-align:top;text-align:center;padding-left:50px;padding-right:50px;">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                            <td>
+                                <table id="MasterTable" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="text-align:left;vertical-align:top;">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                    <td id="mainMenu">
+                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                            <tr>
+                                                                <td style="padding-top:13px;padding-left:17px;padding-right:135px;width:293px;">
+                                                                    <asp:ImageButton ID="btnLogo" CausesValidation="false" AlternateText="Click here to return home" ToolTip="Click here to return home" ImageUrl="~/Images/BFGoodrich/BFGoodrichLogo.png" Height="21px" Width="108px" runat="server" /></td>
+                                                                <td style="padding-top:13px;width:110px;">
+                                                                    <asp:ImageButton ID="btnMyRewardCenter" CausesValidation="false" AlternateText="My Reward Center" ToolTip="My Reward Center" ImageUrl="~/App_Themes/BFGoodrich/Images/btnMyRewardCenter.png" Height="21px" Width="108px" runat="server" /></td>
+                                                                <td style="padding-top:13px;width:133px;">
+                                                                    <asp:ImageButton ID="btnSubmitReward" CausesValidation="false" AlternateText="Submit a new redemption" ToolTip="Submit a new redemption" ImageUrl="~/App_Themes/BFGoodrich/Images/btnSubmitReward.png" Height="21px" Width="131px" runat="server" /></td>
+                                                                <td style="padding-top:13px;width:97px;">
+                                                                    <asp:ImageButton ID="btnActivateCard" CausesValidation="false" AlternateText="Activate Your Rebate Card" ToolTip="Activate Your Rebate Card" ImageUrl="~/App_Themes/BFGoodrich/Images/btnActivateCard.png" Height="21px" Width="95px" runat="server" /></td> 
+                                                                <td style="padding-top:13px;width:35px;">
+                                                                    <asp:ImageButton ID="btnFAQ" CausesValidation="false" AlternateText="Frequently Asked Questions" ToolTip="Frequently Asked Questions" ImageUrl="~/App_Themes/BFGoodrich/Images/btnFAQ.png" Height="21px" Width="33px" runat="server" /></td> 
+                                                                <td style="padding-top:13px;width:82px;">
+                                                                    <asp:ImageButton ID="btnContactUs" CausesValidation="false" AlternateText="Contact Us" ToolTip="Contact Us" ImageUrl="~/App_Themes/BFGoodrich/Images/btnContactUs.png" Height="21px" Width="80px" runat="server" /></td> 
+                                                                <td style="padding-top:13px;padding-left:90px;width:149px;">
+                                                                    <asp:ImageButton ID="btnFindDealer" CausesValidation="false" AlternateText="Find Dealer" ToolTip="Find Dealer" PostBackUrl="http://www.bfgoodrichtires.com/dealerlocator" ImageUrl="~/App_Themes/BFGoodrich/Images/btnFindDealer.png" Height="21px" Width="65px" runat="server" /></td> 
+                                                                <td style="padding-top:13px;width:74px;">
+                                                                    <asp:LoginStatus ID="LoginStatus1" LoginImageUrl="~/App_Themes/BFGoodrich/Images/btnLogin.png" LoginText="Login" LogoutAction="Redirect" LogoutPageUrl="~/BFGoodrich/Default.aspx" Width="50px" Height="21px" LogoutText="Logout" LogoutImageUrl="~/App_Themes/BFGoodrich/Images/btnLogout.png"  runat="server" /></td> 
+                                                            </tr>
+                                                        </table></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table class="centerWorkingTable" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" /></td>
+                                                            </tr>
+                                                        </table></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-top:5px;padding:bottom:15px;white-space:nowrap;">
+                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                            <tr>
+                                                                <td style="white-space:nowrap;vertical-align:middle;">
+                                                                    <asp:Label ID="lblCopyFooter" CssClass="FooterText" runat="server" Text="" /></td>
+                                                                <td class="FooterSeperator">|</td>
+                                                                <td style="white-space:nowrap;vertical-align:middle;">
+                                                                    <asp:HyperLink ID="lnkPoweredBy" CssClass="FooterLink" NavigateUrl="http://www.groupo.com" Target="_blank" Text="Powered By GroupO" runat="server" /></td>
+                                                                <td style="width:100%;white-space:nowrap;vertical-align:middle;"> 
+                                                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                        <tr>
+                                                                            <td style="width:100%;text-align:right;vertical-align:middle;">
+                                                                                <asp:HyperLink ID="btnFtrPrivacy" CausesValidation="false" CssClass="FooterLink" ToolTip="Privacy Policy" NavigateUrl="http://www.bfgoodrichtires.com/privacy.page" runat="server" Text="Privacy" /></td>
+                                                                            <td class="FooterSeperator">|</td>
+                                                                            <td style="vertical-align:middle;padding-right:10px;">
+                                                                                <asp:HyperLink ID="btnFtrTermsOfUse" CausesValidation="false" CssClass="FooterLink" ToolTip="Terms of Use" NavigateUrl="http://www.bfgoodrichtires.com/terms.page" runat="server" Text="Terms of Use" /></td>
+                                                                            <td style="padding-right:2px;">
+                                                                                <asp:HyperLink ID="btnFaceBook" AlternateText="Facebook link" ToolTip="Facebook Link" Target="_blank" CausesValidation="false" ImageUrl="~/Images/BFGoodrich/imgFaceBook.jpg" NavigateUrl="http://www.facebook.com/bfgoodrichtires" runat="server" /></td>
+                                                                            <td style="padding-right:2px;">
+                                                                                <asp:HyperLink ID="btYouTube" AlternateText="You Tube" ToolTip="You Tube Channel" Target="_blank" CausesValidation="false" ImageUrl="~/Images/BFGoodrich/imgYouTube.jpg" NavigateUrl="http://www.youtube.com/user/BFGoodrich?feature=mhum" runat="server" /></td>
+                                                                            <td style="padding-right:10px;">
+                                                                                <asp:HyperLink ID="btnTwitter" AlternateText="Twitter Feed" ToolTip="Twitter Feed" Target="_blank" CausesValidation="false" ImageUrl="~/Images/BFGoodrich/imgTwitter.jpg" NavigateUrl="http://twitter.com/BFGoodrichTires" runat="server" /></td>
+                                                                        </tr>
+                                                                    </table></td>
+                                                            </tr>
+                                                        </table></td>
+                                                </tr>
+                                            </table></td>
+                                    </tr>
+
+                                </table></td>
+                        </tr> 
+                    </table></td> 
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
